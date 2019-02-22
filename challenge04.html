@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<script>
+	function convertNumberToHrs(){
+	
+	var num;
+              num = (document.getElementById("s").value);
+ { 
+var hours;
+var minutes;
+   hours = Math.floor(num / 60);  
+   minutes = num % 60;
+  window.alert (hours + ":" + minutes);         
+}
+
+
+
+}
+
+</script>
+</head>
+<body>
+<h1>Challenge 4</h1> 
+<h3>Make a JavaScript program to convert any number into hours and minutes. </h3>
+</h1>
+<hr color="red">
+		<br>
+		Enter A Number <input type="text" id="s"></input>
+		
+        <left><button onclick="convertNumberToHrs()">OK</button>
+		<hr color="red">
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<script>
+		
+		
+function comparingTwoNumbers(){
+ var num01;
+ var num02;
+ //var sum;//
+ num01 = Number(document.getElementById("s").value);
+ num02 = Number(document.getElementById("i").value);
+ //sum = Number(document.getElementById("w").value);//
+   if (num01 == 65){
+   window.alert( "true");
+}
+else if (num02 == 65){
+    window.alert("true");
+}
+
+else if (num01 + num02 == 65){
+       
+	   window.alert("true");
+}
+else {
+window.alert( "false");
+}
+}
+						
+</script>
+</head>
+<body>
+<h1></h1>
+<h1>Challenge 1</h1>
+<h3>Make a JavaScript program that checks two numbers and returns true if one of the numbers is 65 or if their sum is 65.</h3>
+<hr color="red">
+		<br>
+		Enter First  No  <input type="text" id="s"></input>
+		Enter Second No <input type="text" id="i"></input>
+		<!--Sum  <input type="text" id="w"></input>-->
+		
+        <left><button onclick="comparingTwoNumbers()">OK</button>
+		<hr color="red">
+</body>
+</html>

@@ -1,0 +1,38 @@
+<html>
+	<head>
+        
+            <script>
+              function lagerst(){
+			  
+			  var num01;
+			  var num02;
+			  var num03;
+              num01 = Number(document.getElementById("s").value);
+              num02 = Number(document.getElementById("i").value);
+              num03 = Number(document.getElementById("w").value);
+			if (num01>num02 && num01>num03)
+					window.alert(num01+ " is the lagerst");
+						else if (num02>num01 && num02>num03)
+							window.alert( num02+ " is the lagerst");
+								else if (num03>num01 && num03>num02)
+									window.alert( num03+ " is the lagerst");
+}
+			
+</script>
+			
+	</head>
+	<body>
+		<h1>Challenge 3</h1>
+		<h3>Make a JavaScript program that returns the largest of three numbers. <br> allow the user to provide 3 numbers and your program will return the largest of the three.</h3>
+		<hr color="red">
+		<br>
+		Enter First  No  <input type="text" id="s"></input>
+		Enter Second No <input type="text" id="i"></input>
+		Enter Third  No  <input type="text" id="w"></input>
+		
+        <left><button onclick="lagerst()">OK</button>
+		<hr color="red">
+		
+		
+    </body>
+</html>
